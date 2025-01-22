@@ -1,21 +1,20 @@
 # CyberLLM
 
-A dataset of 54,928 instruction-response pairs for analyzing safety implications of fine-tuning LLMs on cybersecurity data.
+Code and dataset repository for the paper:
+> CyberLLM: A new dataset for analysing safety of fine-tuned LLMs using cyber security data
 
+This repository contains all code, dataset, and materials used in the paper.
 ## Repository Structure
 
-* `CyberMetric/`: CyberMetric evaluation framework and benchmarks
+* `cybermetric/`: CyberMetric evaluation framework and benchmarks
 * `dataset/`: The CyberLLM dataset files
 * `dataset_creation/`: Scripts for dataset creation, reproduction, and expansion
-* `DeepEval/`: DeepEval evaluation setup and results
+* `deepeval/`: DeepEval evaluation setup and results
   - `test.py`: Main evaluation script
   - `run.sh`: Evaluation runner
   - `*.out`: Evaluation outputs
-* `Finetune/`: Fine-tuning implementation
+* `finetune/`: Fine-tuning implementation
   - `finetune.py`: Fine-tuning script
   - `infer.py`: Inference script
 * `scripts/`: Additional utility scripts
-  - Data categorization
-  - Processing tools
-
-## Citation
+  - Data categorisation
