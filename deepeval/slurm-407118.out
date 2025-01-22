@@ -1,0 +1,8 @@
+Python 3.10.14
+/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/deepeval/__init__.py:51: UserWarning: You are using deepeval version 2.0, however version 2.0.1 is available. You should consider upgrading via the "pip install --upgrade deepeval" command.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:16<00:50, 16.76s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:34, 17.05s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:16, 16.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 11.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.32s/it]
+Traceback (most recent call last):
+  File "/cluster/home/cug/ae455/llm/deepeval/test.py", line 63, in <module>
+    results = red_teamer.scan(
+NameError: name 'red_teamer' is not defined

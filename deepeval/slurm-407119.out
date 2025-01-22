@@ -1,0 +1,26 @@
+Python 3.10.14
+/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/deepeval/__init__.py:51: UserWarning: You are using deepeval version 2.0, however version 2.0.1 is available. You should consider upgrading via the "pip install --upgrade deepeval" command.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:51, 17.16s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:35, 17.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:17, 17.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 11.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.51s/it]
+Traceback (most recent call last):
+  File "/cluster/home/cug/ae455/llm/deepeval/test.py", line 66, in <module>
+    red_teamer = RedTeamer(
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/deepeval/red_teaming/red_teamer.py", line 49, in __init__
+    initialize_model(synthesizer_model)
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/deepeval/metrics/utils.py", line 267, in initialize_model
+    return GPTModel(model=model), True
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/deepeval/models/gpt_model.py", line 103, in __init__
+    super().__init__(model_name)
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/deepeval/models/base_model.py", line 35, in __init__
+    self.model = self.load_model(*args, **kwargs)
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/deepeval/models/gpt_model.py", line 156, in load_model
+    return ChatOpenAI(
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/langchain_core/load/serializable.py", line 125, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/cug/ae455/.local/lib/python3.10/site-packages/pydantic/main.py", line 193, in __init__
+    self.__pydantic_validator__.validate_python(data, self_instance=self)
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/langchain_openai/chat_models/base.py", line 551, in validate_environment
+    self.root_client = openai.OpenAI(**client_params, **sync_specific)  # type: ignore[arg-type]
+  File "/home/cug/ae455/miniconda3/envs/unsloth_env/lib/python3.10/site-packages/openai/_client.py", line 105, in __init__
+    raise OpenAIError(
+openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
