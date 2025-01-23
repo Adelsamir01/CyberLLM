@@ -70,7 +70,7 @@ Key arguments:
 - `--dataset_path`: Path to the processed dataset
 - `--output_dir`: Directory to save the fine-tuned model
 - `--use_lora`: Whether to use LoRA (default: True)
-- `--use_4bit`/`--use_8bit`: Enable quantization for memory efficiency
+- `--use_4bit`/`--use_8bit`: Enable quantisation for memory efficiency
 - `--learning_rate`: Learning rate (default: 2e-4)
 - `--num_train_epochs`: Number of training epochs (default: 10)
 - `--per_device_train_batch_size`: Batch size per device (default: 4)
@@ -102,7 +102,7 @@ Key arguments:
 - `--interactive`: Run in interactive mode
 - `--input_file`: Path to input file (for batch processing)
 - `--output_file`: Path to save outputs (for batch processing)
-- `--use_4bit`/`--use_8bit`: Enable quantization
+- `--use_4bit`/`--use_8bit`: Enable quantisation
 - `--temperature`: Sampling temperature (default: 0.7)
 - `--top_p`: Nucleus sampling probability (default: 0.9)
 - `--max_new_tokens`: Maximum number of tokens to generate (default: 512)
@@ -159,7 +159,7 @@ finetuned_models/       # Fine-tuned models
 
 ## Notes
 
-- For large models (e.g., Llama 2 70B), it's recommended to use quantization (4-bit or 8-bit) and LoRA to reduce memory requirements.
+- For large models (e.g., Llama 2 70B), it's recommended to use quantisation (4-bit or 8-bit) and LoRA to reduce memory requirements.
 - The scripts include comprehensive error handling and logging.
 - Training progress and metrics are logged using Weights & Biases (wandb).
 - All scripts support both CPU and GPU execution, with automatic device selection. 

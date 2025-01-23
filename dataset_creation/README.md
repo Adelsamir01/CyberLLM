@@ -1,6 +1,6 @@
 # Dataset Creation Pipeline
 
-This directory contains a series of Python scripts that form a comprehensive pipeline for creating, processing, and validating a cybersecurity dataset. Each script performs a specific function in the pipeline, designed to be run sequentially.
+This directory contains a series of Python scripts that form a comprehensive pipeline for creating, processing, and validating a cyber security dataset. Each script performs a specific function in the pipeline, designed to be run sequentially.
 
 ## Pipeline Overview
 
@@ -17,13 +17,13 @@ This directory contains a series of Python scripts that form a comprehensive pip
    - Generates filtering statistics
 
 3. **Data Structuring** (`3_data_structurer.py`)
-   - Standardizes data format
+   - Standardises data format
    - Validates data structure
-   - Normalizes text content
+   - Normalises text content
    - Ensures consistent metadata fields
 
 4. **Domain Classification** (`4_domain_classifier.py`)
-   - Categorizes entries into cybersecurity domains
+   - Categorises entries into cyber security domains
    - Uses both rule-based and ML approaches
    - Supports manual classification corrections
    - Tracks classification confidence scores
@@ -117,4 +117,3 @@ Each entry in the dataset follows this structure:
     ]
   }
 }
-```

@@ -34,7 +34,7 @@ class MetadataGenerator:
                 "name": "CyberLLM Dataset",
                 "version": datetime.now().strftime("%Y.%m.%d"),
                 "creation_date": datetime.now().isoformat(),
-                "description": "A comprehensive cybersecurity instruction-response dataset",
+                "description": "A comprehensive cyber security instruction-response dataset",
                 "license": "MIT",
                 "maintainers": []
             },
@@ -65,7 +65,7 @@ class MetadataGenerator:
                 "processing_steps": []
             },
             "schema": {
-                "instruction": {"type": "string", "description": "The cybersecurity-related instruction or query"},
+                "instruction": {"type": "string", "description": "The cyber security-related instruction or query"},
                 "response": {"type": "string", "description": "The corresponding response or solution"},
                 "metadata": {
                     "type": "object",
@@ -224,7 +224,7 @@ class MetadataGenerator:
 ![Length Statistics](length_statistics.png)
 
 ## Usage Guidelines
-1. This dataset is designed for training and evaluating AI models in cybersecurity contexts
+1. This dataset is designed for training and evaluating AI models in cyber security contexts
 2. Each entry contains an instruction-response pair with associated metadata
 3. Security flags indicate special handling requirements for certain entries
 4. Always check security flags before using entries in production environments
@@ -304,7 +304,7 @@ If you use this dataset in your research, please cite it as:
 def main():
     """Main function to demonstrate usage."""
     import argparse
-    parser = argparse.ArgumentParser(description='Generate metadata and documentation for cybersecurity dataset')
+    parser = argparse.ArgumentParser(description='Generate metadata and documentation for cyber security dataset')
     parser.add_argument('--dataset-dir', required=True,
                        help='Directory containing the dataset files')
     parser.add_argument('--output-dir', default='metadata',

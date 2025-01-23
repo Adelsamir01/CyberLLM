@@ -83,7 +83,7 @@ class CyberDataCollector:
 
     def fetch_nist_standards(self) -> Optional[Dict]:
         """
-        Fetch NIST cybersecurity standards.
+        Fetch NIST cyber security standards.
         
         Returns:
             Dictionary containing NIST standards or None if failed
@@ -126,7 +126,7 @@ class CyberDataCollector:
             return None
 
     def fetch_arxiv_papers(self) -> Optional[Dict]:
-        """Fetch recent cybersecurity papers from arXiv."""
+        """Fetch recent cyber security papers from arXiv."""
         try:
             response = self.session.get(self.endpoints['arxiv_cs_crypto'])
             response.raise_for_status()
@@ -169,7 +169,7 @@ class CyberDataCollector:
 
     def scrape_security_articles(self, url: str) -> Optional[Dict]:
         """
-        Scrape cybersecurity articles from provided URL.
+        Scrape cyber security articles from provided URL.
         
         Args:
             url: URL to scrape

@@ -142,7 +142,7 @@ class DataCategoriser:
 def main():
     """Main function to demonstrate usage."""
     import argparse
-    parser = argparse.ArgumentParser(description='Categorise cybersecurity dataset entries')
+    parser = argparse.ArgumentParser(description='Categorise cyber security dataset entries')
     parser.add_argument('--input-dir', default='dataset',
                        help='Input directory containing dataset files')
     parser.add_argument('--output-dir', default='categorised',

@@ -20,7 +20,7 @@ This repository contains all code, dataset, and materials used in the paper.
 
 * `finetune/`: Comprehensive fine-tuning pipeline
   - `data_prep.py`: Data preprocessing for various LLM architectures
-  - `train.py`: Training script with support for LoRA and quantization
+  - `train.py`: Training script with support for LoRA and quantisation
   - `inference.py`: Inference script with interactive and batch modes
   - `checkpoint_manager.py`: Checkpoint management utilities
   - See [`finetune/README.md`](finetune/README.md) for detailed fine-tuning documentation
@@ -32,7 +32,7 @@ This repository contains all code, dataset, and materials used in the paper.
 
 ## Supported Models
 
-The following large language models has been fine-tuned on the CyberLLM dataset:
+The following large language models have been fine-tuned on the CyberLLM dataset:
 - Llama 3.1 8B
 - Mistral 7B
 - Llama 2 70B
@@ -45,7 +45,7 @@ The following large language models has been fine-tuned on the CyberLLM dataset:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/CyberLLM.git
+git clone https://github.com/adelsamir01/CyberLLM.git
 cd CyberLLM
 ```
 

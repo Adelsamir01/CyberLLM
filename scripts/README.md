@@ -5,7 +5,7 @@ This directory contains utility scripts for processing and managing the CyberLLM
 ## Available Scripts
 
 ### `categorise.py`
-Categorises dataset entries into cybersecurity domains using pattern matching.
+Categorises dataset entries into cyber security domains using pattern matching.
 
 ```bash
 python categorise.py --input-dir dataset --output-dir categorised

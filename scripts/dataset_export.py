@@ -120,7 +120,7 @@ task_categories:
 
 ## Dataset Summary
 
-A comprehensive dataset for training and evaluating language models on cybersecurity tasks.
+A comprehensive dataset for training and evaluating language models on cyber security tasks.
 
 ## Dataset Structure
 
@@ -128,7 +128,7 @@ A comprehensive dataset for training and evaluating language models on cybersecu
 
 - `instruction`: The input prompt or question
 - `response`: The corresponding response or answer
-- `categories`: List of cybersecurity categories
+- `categories`: List of cyber security categories
 - `metadata`: Additional information about the entry
 
 ### Data Splits
@@ -230,7 +230,7 @@ A comprehensive dataset for training and evaluating language models on cybersecu
 def main():
     """Main function to demonstrate usage."""
     import argparse
-    parser = argparse.ArgumentParser(description='Export cybersecurity dataset for release')
+    parser = argparse.ArgumentParser(description='Export cyber security dataset for release')
     parser.add_argument('--input-dir', default='dataset',
                        help='Input directory containing dataset files')
     parser.add_argument('--output-dir', default='release',
