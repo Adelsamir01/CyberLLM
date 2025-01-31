@@ -55,7 +55,7 @@ class CyberDataCollector:
         # Initialize session for better performance
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'CyberLLM-DataCollector/1.0'
+            'User-Agent': 'CyberLLMInstruct-DataCollector/1.0'
         })
 
     def fetch_cve_data(self, start_index: int = 0, results_per_page: int = 2000) -> Optional[Dict]:

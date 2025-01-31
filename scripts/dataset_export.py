@@ -28,10 +28,10 @@ class DatasetExporter:
         
         # Dataset metadata
         self.metadata = {
-            'name': 'CyberLLM',
+            'name': 'CyberLLMInstruct',
             'version': '1.0.0',
             'description': 'A dataset for analysing safety of fine-tuned LLMs using cyber security data',
-            'homepage': 'https://github.com/yourusername/CyberLLM',
+            'homepage': 'https://github.com/yourusername/CyberLLMInstruct',
             'license': 'MIT',
             'citation': '',
             'author': '',
@@ -114,7 +114,7 @@ task_categories:
 - text-classification
 ---
 
-# CyberLLM Dataset
+# CyberLLMInstruct Dataset
 
 {self.metadata['description']}
 

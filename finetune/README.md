@@ -1,6 +1,6 @@
-# CyberLLM Fine-tuning Pipeline
+# CyberLLMInstruct Fine-tuning Pipeline
 
-This directory contains scripts for fine-tuning large language models on the CyberLLM dataset. The pipeline supports various models including Llama, Mistral, Qwen, Gemma, and Phi.
+This directory contains scripts for fine-tuning large language models on the CyberLLMInstruct dataset. The pipeline supports various models including Llama, Mistral, Qwen, Gemma, and Phi.
 
 ## Supported Models
 
@@ -16,7 +16,7 @@ This directory contains scripts for fine-tuning large language models on the Cyb
 
 The fine-tuning process consists of three main steps:
 
-1. **Data Preparation** (`data_prep.py`): Preprocesses the CyberLLM dataset for training
+1. **Data Preparation** (`data_prep.py`): Preprocesses the CyberLLMInstruct dataset for training
 2. **Training** (`train.py`): Fine-tunes the selected model using the preprocessed data
 3. **Inference** (`inference.py`): Runs inference using the fine-tuned model
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ### 1. Data Preparation
 
-The data preparation script processes the CyberLLM dataset (located in `dataset/CyberLLM_full_dataset.csv`) for fine-tuning:
+The data preparation script processes the CyberLLMInstruct dataset (located in `dataset/CyberLLM_full_dataset.csv`) for fine-tuning:
 
 ```bash
 python data_prep.py \

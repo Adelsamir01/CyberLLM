@@ -2,6 +2,6 @@
 
 python3 --version
 
-python3 /home/cug/ae455/llm/unsloth4/test5/CyberLLM-Eval.py
+python3 /home/cug/ae455/llm/unsloth4/test5/CyberLLMInstruct-Eval.py
 
 

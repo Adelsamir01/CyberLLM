@@ -31,7 +31,7 @@ class MetadataGenerator:
         # Initialize metadata structure
         self.metadata = {
             "dataset_info": {
-                "name": "CyberLLM Dataset",
+                "name": "CyberLLMInstruct Dataset",
                 "version": datetime.now().strftime("%Y.%m.%d"),
                 "creation_date": datetime.now().isoformat(),
                 "description": "A comprehensive cyber security instruction-response dataset",
@@ -179,7 +179,7 @@ class MetadataGenerator:
 
     def generate_markdown_report(self):
         """Generate a comprehensive markdown report."""
-        report = f"""# CyberLLM Dataset Documentation
+        report = f"""# CyberLLMInstruct Dataset Documentation
 
 ## Dataset Overview
 - **Name**: {self.metadata['dataset_info']['name']}
@@ -233,7 +233,7 @@ class MetadataGenerator:
 If you use this dataset in your research, please cite it as:
 ```
 @dataset{{cyberllm2024,
-  title={{CyberLLM Dataset}},
+  title={{CyberLLMInstruct Dataset}},
   version={self.metadata['dataset_info']['version']},
   year={{2024}},
   url={{https://github.com/yourusername/cyberllm}}
