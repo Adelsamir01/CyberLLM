@@ -1,14 +1,14 @@
-# CyberLLM
+# CyberLLMInstruct
 
 Code and dataset repository for the paper:
-> CyberLLM: A new dataset for analysing safety of fine-tuned LLMs using cyber security data
+> CyberLLMInstruct: A new dataset for analysing safety of fine-tuned LLMs using cyber security data
 
 This repository contains all code, dataset, and materials used in the paper.
 
 ## Repository Structure
 
-* `dataset/`: The CyberLLM dataset files
-  - Contains the main dataset file: `CyberLLM_full_dataset.csv`
+* `dataset/`: The CyberLLMInstruct dataset files
+  - Contains the main dataset file: `CyberLLMInstruct_full_dataset.csv`
 
 * `dataset_creation/`: Dataset creation pipeline
   - Eight sequential scripts (`1_data_collector.py` through `8_final_assembler.py`) for collecting, processing, and validating cyber security data
@@ -32,7 +32,7 @@ This repository contains all code, dataset, and materials used in the paper.
 
 ## Supported Models
 
-The following large language models have been fine-tuned on the CyberLLM dataset:
+The following large language models have been fine-tuned on the CyberLLMInstruct dataset:
 - Llama 3.1 8B
 - Mistral 7B
 - Llama 2 70B
@@ -45,8 +45,8 @@ The following large language models have been fine-tuned on the CyberLLM dataset
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/adelsamir01/CyberLLM.git
-cd CyberLLM
+git clone https://github.com/adelsamir01/CyberLLMInstruct.git
+cd CyberLLMInstruct
 ```
 
 2. Install dependencies:
