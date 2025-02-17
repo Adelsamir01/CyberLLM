@@ -35,9 +35,9 @@ This repository contains all code, dataset, and materials used in the paper.
 ## Supported Models
 
 The following large language models have been fine-tuned on the CyberLLMInstruct dataset:
-- Phi 3 Mini Instruct 3.8B
+- Phi 3 Mini 3.8B
 - Mistral 7B
-- Qwen 2.5 Coder 7B
+- Qwen 2.5 7B
 - Llama 3 8B
 - Llama 3.1 8B
 - Gemma 2 9B
