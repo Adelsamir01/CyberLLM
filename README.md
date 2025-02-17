@@ -14,9 +14,11 @@ This repository contains all code, dataset, and materials used in the paper.
   - Eight sequential scripts (`1_data_collector.py` through `8_final_assembler.py`) for collecting, processing, and validating cyber security data
   - See [`dataset_creation/README.md`](dataset_creation/README.md) for detailed pipeline documentation
 
-* `evaluation/`
-  - `cybermetric/`
-  - `deepeval/`
+* `examples/`: Examples of using the CyberLLMInstruct dataset
+  - `deepeval/`: Example 1
+  - `cybermetric/`: Example 2
+
+
 
 * `finetune/`: Comprehensive fine-tuning pipeline
   - `data_prep.py`: Data preprocessing for various LLM architectures
@@ -33,13 +35,14 @@ This repository contains all code, dataset, and materials used in the paper.
 ## Supported Models
 
 The following large language models have been fine-tuned on the CyberLLMInstruct dataset:
-- Llama 3.1 8B
-- Mistral 7B
-- Llama 2 70B
-- Qwen 2.5 Coder 7B
-- Gemma 2 9B
-- Llama 3 8B
 - Phi 3 Mini Instruct 3.8B
+- Mistral 7B
+- Qwen 2.5 Coder 7B
+- Llama 3 8B
+- Llama 3.1 8B
+- Gemma 2 9B
+- Llama 2 70B
+
 
 ## Getting Started
 
