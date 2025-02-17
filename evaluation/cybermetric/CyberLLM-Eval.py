@@ -190,7 +190,7 @@ if __name__ == "__main__":
         "adelsamir/cyber-Qwen2.5-Coder-7B-bnb-4bit-d2"
     ]
     
-    file_path = 'CyberLLMInstruct-Eval-Data.json'
+    file_path = 'CyberLLM-Eval-Data.json'
     
     for model_id in models:
         print("\n" + "="*80)

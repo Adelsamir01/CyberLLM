@@ -1,6 +1,6 @@
 # Scripts
 
-This directory contains utility scripts for processing and managing the CyberLLMInstruct dataset.
+This directory contains utility scripts for processing and managing the CyberLLM dataset.
 
 ## Available Scripts
 
